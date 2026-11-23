@@ -1,8 +1,7 @@
 # Linux System Administration & Automation Toolkit
 
 ## About
-A Bash-based Linux administration toolkit that automates
-system monitoring, backup, log analysis and reporting.
+A Bash-based Linux administration toolkit that automates system monitoring, backup, log analysis and reporting.
 
 ## Modules
 1. monitor.sh - CPU, memory and disk monitoring.
@@ -13,20 +12,22 @@ system monitoring, backup, log analysis and reporting.
 ## Requirements
 - Ubuntu/Linux
 - Bash
+- Git
 - tar
 - grep
-- awk
-- Git
 
 ## Execution
 
 Make scripts executable:
 
-chmod +x *.sh
+    chmod +x *.sh
 
 Run the dashboard:
 
-./dashboard.sh
+    ./dashboard.sh
 
 ## Testing
 Sample logs are available in the sample_logs directory.
+
+## Author
+Narayan Pareek
